@@ -1,0 +1,56 @@
+
+
+
+tbody{
+
+    display: block;
+    height: 400px;
+    overflow: auto;
+    border: 1px black;
+}
+
+thead, tbody tr , tfoot{
+
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px black;
+}
+
+tbody{
+border: solid black;
+
+}
+
+thead{
+    background-color: burlywood;
+    color:black;
+    border: solid black;
+    
+    }
+
+.container{
+    height:100%;
+    margin:0;
+    padding:0;
+    background: 
+    linear-gradient(45deg,  transparent 0%, transparent 57%, #423246 100%),
+    linear-gradient(-45deg, #8f5046 0%,  #A14436 0.3%, #4C2556 112%,  transparent 11% ),
+    linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% )
+  }
+
+      td {
+          color: white;
+          border-bottom: white  solid 0.25px;
+          padding: 10px;
+          border-left: white solid 0.25px;
+        }
+
+th {
+    padding: 10px;
+    border: black;
+    border-style: solid;
+}
+
+
+    

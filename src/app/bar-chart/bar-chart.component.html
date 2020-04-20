@@ -1,0 +1,65 @@
+<body style="background-color: black;">
+
+        <router-outlet></router-outlet>
+    
+
+    <div>
+
+      
+  <a [routerLink]="[]" (click)="OnClick()">
+
+    
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Home
+</a>
+
+
+
+<a [routerLink]="[]" (click)="OnClick1()">
+
+    
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  DoughnutChart
+</a>
+
+<a [routerLink]="[]" (click)="OnClick2()">
+
+    
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  LineChart
+</a>
+
+
+    </div>
+
+    <div>
+        <div  class = "map"style="display: block">
+          <canvas baseChart
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                  [chartType]="barChartType">
+          </canvas>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+     
+<br>
+<br>
+
+  
+
+</body>

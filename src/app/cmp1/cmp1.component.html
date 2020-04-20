@@ -1,0 +1,46 @@
+
+<body> <!--
+    <div>
+        <ul>
+            <li *ngFor = "let InterfaceEx of localArray ">
+            <h1> {{InterfaceEx.name}}</h1>
+            <h1> {{InterfaceEx.id}}</h1>
+            <h1> {{InterfaceEx.age}}</h1>   
+            </li>
+            </ul>
+    </div>
+
+-->
+<div class="decoration">
+    <p class="dec">
+      
+        Welcome to Covid - 19 Dashboard.
+    </p>
+    </div>
+
+
+
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>                    
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr *ngFor = "let InterfaceEx of localArray" style="text-align: left;">
+                    <td>{{InterfaceEx.id}}</td>
+                    <td>{{InterfaceEx.name}}</td>
+                    <td>{{InterfaceEx.age}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+

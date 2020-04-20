@@ -1,0 +1,112 @@
+Basic REST Api CAll using HttpClient in Angular.
+1) create a hello.ts file inside apps folder in assets.
+   create an hello interface with name hello.(src->app->assets->newFolder(data)->hello.json
+[
+	{"id": 1, "name": "GAurav", "age": 25},
+	{"id": 2, "name": "Chaitanya", "age": 17},
+	{"id": 3, "name": "Madhuri", "age": 52},
+	{"id": 4, "name": "Rajendra", "age": 57}
+]	
+	--------------------------------------------------------------------------------
+2)  Create A new Component. 
+3)  Add the path of component in app-roting.module.ts -> 
+	const routes: Routes = [
+	{ path: "cmp1", component: cmp1Component }
+	];
+--------------------------------------------------------------------------------------
+4) Create a Service.
+5) Give path of service in app Routing Module: providers: [DataService]
+--------------------------------------------------------------------------------------
+	
+	
+ export interface hello{
+ id: number;
+ name: string;
+ emailid: string;
+ }
+ 
+ 
+ 
+ 
+ ========================================================================
+ You Were Fetching an object in array
+ =========================================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =================================================================================================
+ USING GOOGLE MAPS IN ANGULAR:
+ 1) Create a New Component.
+ 2) install maps module: npm install @agm/core --save
+ 3) generate api key in google apis console:  https://cloud.google.com/console/google/maps-apis/overview
+	1.Click the project drop-down and select or create the project for which you want to add an API key.
+	2.Click the menu button  and select APIs & Services > Credentials.
+	3.Onn the Credentials page, click Create credentials > API key.
+	  The API key created dialog displays your newly created API key.
+	4.Click Close.
+	The new API key is listed on the Credentials page under API keys.
+	(Remember to restrict the API key before using it in production.)
+	
+	
+	
+	Embed Map Link:  
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60299.449923681255!2d73.2086520332375!3d19.163921581481894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ed5c9bc71bbd%3A0x87d539b0621850f3!2sBadlapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1587133488312!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+	Embed Google map readymade Link:https://www.embedgooglemap.net/
+ ======================================================================================================
+ 
+ @Media Rules for Responsive Website:
+ 
+ 
+/*----------------St Media Query Rule---------For All Tablets -----------------------*/
+@media screen and (max-width:959px){
+#body{
+  width: 100%;
+}
+
+  decoration{
+      width: 100%;
+  }
+  container{
+    width: 100%;
+  }
+
+}
+/*----------------2St Media Query Rule----- For All Mobiles  ---------------------------*/
+@media screen and (max-width:640px){
+  #body{
+    width: 100%;
+  }
+
+  decoration{
+    width: 100%;
+}
+container{
+  width: 100%;
+}
+
+}
+/*----------------3Rd  Media Query Rule----- Custom Thumb Scroll ---------------------------*/
+#body{
+  width: 340px;
+}
+
+@media screen and (max-width:320px){
+  decoration{
+    width: 320px;
+}
+container{
+  width: 320px;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+ 
+

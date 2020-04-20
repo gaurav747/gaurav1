@@ -1,0 +1,46 @@
+<body style="background-color: black">
+
+    <div>
+    
+      <a [routerLink]="[]" (click)="OnClick()">
+    
+        
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Home
+    </a>
+    
+    
+    <a [routerLink]="[]" (click)="OnClick1()">
+    
+        
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Charts
+    </a>
+    </div>
+    
+    
+      
+        <div style="display: block">
+            <canvas baseChart
+                    [datasets]="linChartData"
+                    [labels]="linChartLabels"
+                    [options]="linChartOptions"
+                    [legend]="linChartLegend"
+                    [chartType]="linChartType">
+            </canvas>
+          </div>
+    
+    
+         
+          
+    
+    
+    </body>
+       
+    
