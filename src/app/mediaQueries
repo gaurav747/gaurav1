@@ -1,0 +1,46 @@
+@Media Rules for Responsive Website:
+ 
+ 
+/*----------------St Media Query Rule---------For All Tablets -----------------------*/
+@media screen and (max-width:959px){
+#body{
+  width: 100%;
+}
+
+  decoration{
+      width: 100%;
+  }
+  container{
+    width: 100%;
+  }
+
+}
+/*----------------2St Media Query Rule----- For All Mobiles  ---------------------------*/
+@media screen and (max-width:640px){
+  #body{
+    width: 100%;
+  }
+
+  decoration{
+    width: 100%;
+}
+container{
+  width: 100%;
+}
+
+}
+/*----------------3Rd  Media Query Rule----- Custom Thumb Scroll ---------------------------*/
+#body{
+  width: 340px;
+}
+
+@media screen and (max-width:320px){
+  decoration{
+    width: 320px;
+}
+container{
+  width: 320px;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+ 
